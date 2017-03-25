@@ -1,0 +1,2 @@
+model_checkpoint_path: "trafic_net_model.ckpt"
+all_model_checkpoint_paths: "trafic_net_model.ckpt"
