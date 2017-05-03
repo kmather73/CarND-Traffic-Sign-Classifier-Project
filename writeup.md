@@ -24,13 +24,13 @@ The goals / steps of this project are the following:
 [image8]: ./test_images/5.jpg "Traffic Sign 5"
 
 ---
-###Writeup / README
+### Writeup / README
 
 You're reading it! and here is a link to my [project code](https://github.com/kmather73/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
 
-###Data Set Summary & Exploration
+### Data Set Summary & Exploration
 
-###1. Basic summary of the data set 
+### 1. Basic summary of the data set 
 
 The code for this step is contained in the second code cell of the IPython notebook.  
 
@@ -42,7 +42,7 @@ signs data set:
 * The shape of a traffic sign image is (32, 32, 3)
 * The number of unique classes/labels in the data set is 43
 
-###2. Visualization of the dataset
+### 2. Visualization of the dataset
 
 The code for this step is contained in the third code cell of the IPython notebook.  
 
@@ -50,9 +50,9 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 
 ![alt text][image1]
 
-###Design and Test a Model Architecture
+### Design and Test a Model Architecture
 
-###1. Preprocessing the image data. 
+### 1. Preprocessing the image data. 
 
 The code for this step is contained in the fifth code cell of the IPython notebook.
 
@@ -63,7 +63,7 @@ Here is an example of a traffic sign image before and after grayscaling.
 ![alt text][image2]
 
 
-###2. Training, validation, and testing data. 
+### 2. Training, validation, and testing data. 
 
 The code for splitting the data into training and validation sets is contained in the first code cell of the IPython notebook since we were provided pickle files for the train, test and validation sets.  
 
@@ -71,7 +71,7 @@ My final training set had 34799 number of images. My validation set and test set
 
 
 
-###3. Model architecture 
+### 3. Model architecture 
 
 The code for my final model is located in the seventh cell of the ipython notebook labeled "Final Tensorflow Model". 
 
@@ -104,7 +104,7 @@ My final model consisted of the following layers:
  
 
 
-###4. Trained the model.
+### 4. Trained the model.
 
 The code for training the model is located in the eigth cell of the ipython notebook labeled. 
 
@@ -135,9 +135,9 @@ My final model results were:
 
  
 
-###Test a Model on New Images
+### Test a Model on New Images
 
-###1. Testing on new data.
+### 1. Testing on new data.
 
 Here are five German traffic signs that I found on the web:
 
@@ -146,7 +146,7 @@ Here are five German traffic signs that I found on the web:
 
 The classifier should be able to handle all of the above images. For the first three it should be easy to classify since there are a lot of traning examples of these classes. For the pedestrian image it might be a bit harder since there is a tree branches in the background. The last images should also be easy to classify.
 
-###2. Model's predictions the new data
+### 2. Model's predictions the new data
 
 The code for making predictions on my final model is located in the 13th cell of the Ipython notebook.
 
@@ -163,7 +163,7 @@ Here are the results of the prediction:
 
 The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%. This compares so favorably to the accuracy on the test set.
 
-###3. Certain of the model 
+### 3. Certain of the model 
 The code for making predictions on my final model is located in the 14th cell of the Ipython notebook.
 
 For the first image, the model is absolutely sure that this is a 30 km/h sign ('probability' of 1.0), the image does contain a 30 km/h sign. The top five soft max probabilities were
